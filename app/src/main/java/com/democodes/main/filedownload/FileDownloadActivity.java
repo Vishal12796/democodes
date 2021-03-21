@@ -68,7 +68,7 @@ public class FileDownloadActivity extends AppCompatActivity implements View.OnCl
 
         String fileURL = binding.edtURL.getText().toString().trim();
 
-        fileURL = "https://bravatech.webclueslab.com/assets/certificates/11/S00038.pdf";
+//        fileURL = "https://bravatech.webclueslab.com/assets/certificates/11/S00038.pdf";
 
         if (fileURL.equals("")) {
             Toast.makeText(context, "Enter File URL", Toast.LENGTH_LONG);
@@ -143,7 +143,7 @@ public class FileDownloadActivity extends AppCompatActivity implements View.OnCl
                 String fullPath = cw.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS).toString() + "/temp.pdf";
 //                File directory = cw.getExternalFilesDir(Environment.DIRECTORY_DOWNLOADS);
 
-                fullPath = context.getFilesDir().getPath() + "/temp.pdf";
+//                fullPath = context.getFilesDir().getPath() + "/temp.pdf";
 
 
                 Log.e(TAG, " STORAGE PATH :  " + fullPath);
